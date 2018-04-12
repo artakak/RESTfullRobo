@@ -16,7 +16,6 @@ class Switch1(Resource):
         return {'switch': str(state)}
 
 
-
 api.add_resource(HelloWorld, '/')
 api.add_resource(Switch1, '/switch<int:state>')
 if __name__ == '__main__':
